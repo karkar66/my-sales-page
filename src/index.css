@@ -1,0 +1,28 @@
+/* Reset margin, padding and set box-sizing globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base body styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f0fa;
+  color: #003049;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent horizontal scroll caused by fixed elements */
+body, html {
+  overflow-x: hidden;
+}
